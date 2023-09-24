@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+   
+</head>
+<!--TENTEI UTILIZAR A DIV PARA COLOCAR A LISTA EM HORIZONTAL,MAS NÃO CONSEGUI-->
+<style>
+
+.ul {
+
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+ </style>
+<body>
+<header>
+    <div class="main_pag">
+    
+        <div class="logo">
+            <img src="./Nova pasta/painel.svg" alt="logoo">
+        </div>
+        <div class="slogan">
+            <center><h1>BEST HEADLINE IN THE WORLD</h1></center>
+            <h5 style="text-align: center;">Vestibulum rutrum urna felis, dictum dictum erat condimentum sit amet.</h5>
+        <br>
+        </div>
+    </div>
+</header>
+        <form action="php" method="post">
+
+                <center><input type="text" name="usuario" placeholder="Seu Nome!">
+                <input type="text" name="email-usuario" placeholder="Digite seu Email">
+                <button class="btn-login">enviar</button></center>
+        </form>
+        <!--CASO SAIBA UTILIZAR UMA TAG QUE SUBTITUA TODOS ESSE BR´S PARA QUEBRA DE LINHA,AGRADECERIA SE TROCASSE-->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <footer>
+    <div class="ul">
+        <h5>
+        <li>customizar logo</li>
+        <li>customizar logo</li>
+        <li>customizar logo</li>
+        <li>customizar logo</li>
+        </h5>
+    </div>
+    </footer>
+    <hr>
+    <!--OBS FIZ O ESPOÇO DA PÁGINA DOIS, ESPERO TER AJUDADO-->
+<header>
+    <br>
+    <br>
+    <br>
+    <center><h1>WHY USE OUR PLATFORM</h1></center>
+    <br>
+</header>
+<center>
+<table width="70%" border="0" cellspacing="20" cellpadding="6">
+    <tr><th>FEATURE NO1</th><th>FEATURE NO2</th><th>FEATURE NO3</th></tr>
+    <tr><td>i´m really good feature.That´s why<br>we want to talk about it</td><td>i´m really good feature.That´s why<br>we want to talk about it</td><td>i´m really good feature.That´s why<br>we want to talk about it</td></tr>
+    <tr><th>FEATURE NO4</th><th>FEATURE NO5</th><th>FEATURE NO6</th></tr>
+    <tr><td>i´m really good feature.That´s why<br>we want to talk about it</td><td>i´m really good feature.That´s why<br>we want to talk about it</td><td>i´m really good feature.That´s why<br>we want to talk about it</td></tr>
+</center></table>
+    <br>
+    <br>
+    <hr>
+</body>    
+</body>
+</html>
