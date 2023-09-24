@@ -1,26 +1,46 @@
 body{
+
     margin: 0;
 
 }
 .main_pag{
+
     color: #9DADBD;
     background-color: #F4F5F9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 75vh;
+    height: 100vh;
+
 }
 .logo{
    
     width: 100px;
     height: 100px;
 }
-.card-login{
-    display: flex;
+input[type="email"],input[type="password"],button[type="submit"]{
 
+  border-radius: 3px;
+  margin: 10px;
+  border: 1px solid #9DADBD; 
+  padding: 10px;
+  width: 250px;
+  
+}
+button[type="submit"]{
+
+    background-color: #5a86b3;
+}
+.card-login{
+    
+    display: flex;
     align-items: center;
     justify-content: space-around;
     height: 30vh;
-    width: 33vw;
+
+}
+.rodape-main li{
+    margin: 10px;
+    display: inline-block;
 }
