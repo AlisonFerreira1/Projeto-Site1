@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main_pag">
+    
+        <div class="logo">
+            <img src="./Nova pasta/painel.svg" alt="logoo">
+        </div>
+        <div class="slogan" style="text-align: center;">
+            <h1>BEST HEADLINE IN THE WORLD</h1>
+            <br>
+            <h6>Vestibulum rutrum urna felis, dictum dictum erat condimentum sit amet.</h6>
+        </div>
+
+    <form>
+
+        <div class="card-login">
+            <div class="Email-usuario">
+                <input type="email" name="usuario" placeholder="Seu Nome!">
+            </div>
+            <div class="senha-usuario">
+                <input type="password" name="imail-usuario" placeholder="Digite seu Imail">
+            </div>
+            <button type="submit" class="btn-login">enviar</button>
+        </div>
+
+    </form>
+
+    <footer>
+        
+        <nav class="rodape-main">
+            <ul>
+                <li>customizar logo</li>
+                <li>customizar logo</li>
+                <li>customizar logo</li>
+                <li>customizar logo</li>
+            </ul>
+           
+        </nav>
+        
+    </footer>
+    </div> 
+<div class="page-two">
+<header>
+        <br>
+        <br>
+        <br>
+        <center><h1>WHY USE OUR PLATFORM</h1></center>
+        <br>
+        <br>
+</header>
+<br>
+<br>
+<center>
+<table width="90%" border="0" cellspacing="20" cellpadding="6">
+
+    <tr><th>FEATURE NO1</th><th>FEATURE NO2</th><th>FEATURE NO3</th></tr>
+
+    <tr>
+        <td>i´m really good feature.That´s why<br>we want to talk about it</td>
+        <td>i´m really good feature.That´s why<br>we want to talk about it</td>
+        <td>i´m really good feature.That´s why<br>we want to talk about it</td>
+    </tr>
+
+    <tr><th>FEATURE NO4</th><th>FEATURE NO5</th><th>FEATURE NO6</th></tr>
+
+    <tr>
+        <td>i´m really good feature.That´s why<br>we want to talk about it</td>
+        <td>i´m really good feature.That´s why<br>we want to talk about it</td>
+        <td>i´m really good feature.That´s why<br>we want to talk about it</td>
+    </tr>
+</table>
+</center>
+<br>
+<br>
+<br>
+</div>
+<hr>
+<div class="container">
+    <div id="image">
+    <img src="imgteste.png" width="300px">
+    </div>
+    <h1>ABOUT US</h1>
+    <h6>
+         fusce tempor felis lacus,a hendrerit urna facilisis at. Sed
+         sollicitudin bibendum.Aenean a bibendum magna.
+         Pellentesque feugiat urna a lectus consequat,quis vulputate
+         feugiat.Fusce non augue ligula
+    </h6>
+</div>
+</body>
+</html>
