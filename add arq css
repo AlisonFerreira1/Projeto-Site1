@@ -1,0 +1,8 @@
+.page-two {
+    color: #9DADBD;
+    background-color: #ffffff;
+}
+.container {
+    display:flex;
+
+}
