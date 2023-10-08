@@ -96,14 +96,6 @@ button[type="submit"]{
     height: 100%;
     width: 100%;
 }
-.page_3 {
-    width: 100vw;
-    height: 100vh;
-    background: #F4F5F9;
-    display: flex ;
-    justify-content: center;
-    align-items:  center;
-}
 
 .left_pag{
 
@@ -115,22 +107,22 @@ button[type="submit"]{
     align-items: center;
     flex-direction: column;
 }
-
 .right_pag{
+
     width: 50vw;
     height: 100vh;
     display: flex;
     justify-content:center;
     align-items:center ;
 }
-
 .page_3 {
-text-align: left;
-width: 60% ;
-display: flex;
-justify-content: center;
-align-items:center;
-flex-direction: column;
-padding: 30px 35px;
-box-shadow: 0px 10px;
-}
+    background: #F4F5F9;
+    text-align: center;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 30px 35px;
+    }
+
