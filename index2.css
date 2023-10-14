@@ -17,9 +17,12 @@ body *{
     justify-content: center;
     text-align: center;
     height: 700px;
-    
+    border-bottom:2px solid #000000;
 }
-
+.slogan{
+    color: white;
+    text-align: center
+}
 input[type="email"],input[type="password"],button[type="submit"]{
 
   border-radius: 100px;
@@ -59,12 +62,9 @@ button[type="submit"]{
 
     color: #000000;
     background-color: #fcfbff;
+    border-bottom:2px solid #000000;
 }
-.container {
-    display:flex;
-    flex-direction: column;
 
-}
 
 #cardinform{
 
@@ -73,6 +73,7 @@ button[type="submit"]{
     justify-content: center;
     height: 100vh;
 
+
 }
 #cardinform .card .imag{
     width: 100px;
@@ -80,88 +81,146 @@ button[type="submit"]{
     position: absolute;
     left: 75px;
     top: 10px;
-    background: black;
+    background: #2c16f1;
+    border-radius: 50px ;
+    padding: 3px;
+   
 }
-#cardinform .card{
+#cardinform .card {
     color: #fafafa;
     background:#000000 ;
     padding: 15px;
     width: 250px;
     height: 400px;
     display: flex;
+    position: absolute;
+    opacity: 0;
+
     justify-content: center;
     align-items: center;
     border-radius: 10px 10px 10px 10px;
-}
-.a{
-    object-fit: cover;
-    border-radius: 10%;
-    height: 100px;
-    width: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    animation: animate 15s linear infinite;
+    animation-delay: calc( 3s var(--delay)) ;
 
 }
-.card.imag img{
- 
-    height: 100%;
-    width: 100%;
-}
+#cardinform .card:last-child{
+    animation-delay: calc( -3s * var(--delay)) ;
 
-.color3 {
-    color: #fafafa;
-    background-color: #2c16f1;
-    height: 700px;
 }
-.corpo{
-    width: 900px;
-    margin: auto;
+  
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateX(100%)scale(0.5);
+
+    }
+    
+    25%,40%{
+        opacity: 1;
+    
+        transform: translateX(0%)scale(1);
+        
+    }
+   
+    
+    65%, 100%{
+        opacity: 0;
+        transform: translateX(-100%)scale(0.5);
+        
+    }
     
 }
 
+.card.conteudocard{
+    display: flex;
+    align-items: center;
+    
+}
+.a{
+    object-fit: cover;
+    border-radius: 50%;
+    height: 94px;
+    width: 94px;
+
+}
+.card.detalhes{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.card.imag img{
+
+    height: 100%;
+    width: 100%;
+}
 .pag_3 {
+
+    color: #fafafa;
+    background-color: #2c16f1;
+    height: 80vh;
+    width: 98.9vw;
     border-bottom:1px solid #000000;
     display:table;
 }
-
+.conteudo-pag3{
+    width: 800px;
+    margin: auto;
+    
+}
+.titulo-pag3{
+    text-align: center;
+    
+}
+.conteudo-pag3{
+    margin-top: 100px;
+    
+}
 .texto{
 
     display:table-cell;
     float:left;
     width: 300px;
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 60px;
-}
-.imagem{
+    
 
-    display: table-cell;
-    float:right;
-}
 
+}
+.imagem-pag3{
+    width: 500px;
+    
+    
+}
 
 .pag-4 {
-    display:table;display:flex;
+    display:table;
+    display:flex;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; border-bottom:1px solid #000000;
+    justify-content: center; 
+    border-bottom:1px solid #000000;
     text-align: center;
     flex-direction: column;
 }
 iframe{ 
-    width: 800px;
-    height: 500px;
+    width: 750px;
+    height: 400px;
 
 }
-.pagina5{
-    
+.pag-5{
+    top: -100px;
     margin:auto;
     color: #fafafa;
     background-color: #2c16f1;
+    border-bottom:2px solid #000000;
     height: 700px;
     float:center;
     text-align: center;
     align-items: center;
+}
+.pag-5 p,h1{
+    margin-top: 100px;
 }
 
 .pag-6{
@@ -171,9 +230,13 @@ iframe{
     align-items: center;
     justify-content: center;
     border-bottom:1px solid #000000;
-    height: 600px;
+    height: 590px;
+    background-image: url('fundo.jpg');
+    background-size: 1305px, 1350px;
+    background-repeat: no-repeat; 
 
 }
+
 .rodape-final{
    align-items: center;
     color: white;
@@ -185,3 +248,4 @@ iframe{
 .rodape-logo{
     height: 25px;
     width: 25px;
+}
